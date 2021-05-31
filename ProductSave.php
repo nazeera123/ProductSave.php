@@ -8,7 +8,7 @@
  use Magento\Store\Model\StoreManagerInterface;
  use Magento\Framework\App\Request\DataPersistorInterface;
  
- class Save extends \Magento\Catalog\Controller\Adminhtml\Product implements HttpPostActionInterface
+ class ProductSave extends \Magento\Catalog\Controller\Adminhtml\Product implements HttpPostActionInterface
  {
      protected $initializationHelper;
  
